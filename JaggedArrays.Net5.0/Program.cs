@@ -26,7 +26,20 @@ namespace JaggedArrays.Net5._0
             };
 
             Console.WriteLine("The value in the middle of the first entry is {0}", jaggedArray2[0][2]);
+
+
+            // To call all Values in the Array
+
+            for(int i = 0; i < jaggedArray2.Length; i++)
+            {
+                Console.WriteLine("Element {0}", i);
+                for (int j = 0; j < jaggedArray2[i].Length; j++)
+                    Console.WriteLine(" {0} ", jaggedArray2[i][j]);
+            }
+
+
             Console.ReadKey();
+
         }
     }
 }
