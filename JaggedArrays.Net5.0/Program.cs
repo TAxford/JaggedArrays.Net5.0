@@ -6,7 +6,8 @@ namespace JaggedArrays.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // declare jaggedArray
+            int[][] jaggedArray = new int[3][];
         }
     }
 }
