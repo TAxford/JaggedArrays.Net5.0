@@ -24,6 +24,9 @@ namespace JaggedArrays.Net5._0
                 new int[] { 1, 2, 3 },
                 new int[] { 13, 21 }
             };
+
+            Console.WriteLine("The value in the middle of the first entry is {0}", jaggedArray2[0][2]);
+            Console.ReadKey();
         }
     }
 }
